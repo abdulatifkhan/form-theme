@@ -1,0 +1,30 @@
+#login {
+	padding: 3rem;
+}
+
+section.dark {
+	background: #333;
+	color: #fff;
+}
+section.light {
+	background: #f0f0f0;
+	color: #000;
+}
+
+label {
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
+.input {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
+	border: 0.5rem solid black;
+	margin-bottom: 1rem;
+}
+button:disabled {
+	opacity: 0.3;
+}
+select {
+	margin-bottom: 2rem;
+}
